@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 import { selectUser } from '../../features/userSlice/userSlice';
 import styles from '../../styles/signup.module.scss';
 import Modal from '../Modal/Modal';
-import Footer from '../Footer/Footer';
 
 const UserInfo = () => {
     const user = useSelector(selectUser);
