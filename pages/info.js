@@ -6,7 +6,6 @@ import AlertPage from '../components/AlertPage/AlertPage';
 
 const info = () => {
     const user = useSelector(selectUser);
-    console.log(user)
     return (
         <div>
             {user ? <UserInfo /> : <AlertPage />}

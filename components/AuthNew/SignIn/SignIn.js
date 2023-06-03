@@ -53,7 +53,6 @@ export default function SignIn() {
         router.push('/homepage')
       })
       .catch(error => {
-        console.log(error.response)
         toast.error(error.response.data)
         setLoading(false)
       })
