@@ -35,7 +35,7 @@ export default function SignUp() {
     }
     setLoading(true)
     axios
-      .post('http://localhost:8000/api/register', {
+      .post('https://backend-ds6n.onrender.com/api/register', {
         ...user
       })
       .then(response => {

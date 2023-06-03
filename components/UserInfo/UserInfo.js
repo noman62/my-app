@@ -24,7 +24,6 @@ const UserInfo = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     );
 };

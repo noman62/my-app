@@ -24,7 +24,7 @@
     "antd": "^4.16.13",
     "axios": "^0.21.4",
     "file-saver": "^2.0.5",
-    "firebase": "^9.1.0",
+    "firebase": "^9.22.1",
     "heroicons-react": "^1.4.1",
     "html-pdf": "^3.0.1",
     "i": "^0.3.7",

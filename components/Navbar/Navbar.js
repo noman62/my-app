@@ -15,7 +15,7 @@ const Navbar = () => {
 
     const handleLogout = async (e) => {
         e.preventDefault();
-        const { data } = await axios.get('http://localhost:8000/api/logout');
+        const { data } = await axios.get('https://backend-ds6n.onrender.com/api/logout');
         dispatch(logout());
         toast.info('Logout successfully!')
         router.push("/");
