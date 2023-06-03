@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply px-8;
+}
+
+.btn-brand {
+  @apply px-8 py-3 font-semibold bg-transparent border-2 text-indigo-700 border-indigo-800 rounded-sm hover:bg-indigo-700 hover:text-white hover:border-transparent;
+}
+
+.btn-vendor {
+  @apply px-8 py-3 font-semibold text-indigo-600 bg-transparent border-2 border-indigo-500 rounded-sm hover:bg-indigo-600 hover:text-white hover:border-transparent;
+}
+
+.btn-brand-alt {
+  @apply px-8 py-3 font-semibold text-white bg-indigo-600 border-2 border-indigo-700 rounded-sm hover:text-white hover:bg-indigo-800 hover:border-transparent;
+}
+.btn-home {
+  @apply px-6 py-2 font-semibold text-white bg-indigo-600 border-2 border-indigo-700 rounded-md hover:bg-indigo-700 hover:border-transparent;
+}
+.check{
+  color: orange;
+}
+.btn{
+  text-align: center;
+}
